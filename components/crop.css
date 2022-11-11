@@ -1,0 +1,19 @@
+.cropper-dashed.dashed-v {
+  border: none;
+}
+
+.cropper-dashed.dashed-h {
+  border: none;
+}
+
+.cropper-center::after,
+.cropper-center::before {
+  content: '' !important;
+  display: none !important;
+}
+
+.cropper-view-box {
+  border: 5px solid white;
+  border-radius: 5px;
+  outline: none !important;
+}

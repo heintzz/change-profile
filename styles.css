@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito';
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+nav {
+  background-color: #002984;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 341px;
+  margin-inline: auto;
+}
+
+.profpic {
+  width: 56px;
+  height: 56px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  background-size: contain;
+  box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+}
+
+.profile-container {
+  display: flex;
+  padding-top: 16px;
+  column-gap: 16px;
+}
+
+.box {
+  width: 341px;
+  height: 196px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: #002984;
+  box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+}
+
+.btn-input {
+  margin-top: 34px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #002984;
+  box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+  color: #ffffff;
+}
+
+input#image-input {
+  display: none;
+}
+
+.change-box {
+  width: 343px;
+  height: 343px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+}
+
+video#preview {
+  border-radius: 8px;
+}
+
+#capture {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  position: absolute;
+  bottom: 21px;
+  left: calc(50% - 28px);
+}
+
+.section-wrapper {
+  width: fit-content;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  padding-top: 16px;
+  position: relative;
+}
+
+.section-wrapper img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#save_btn {
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px 0 8px 8px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #002984;
+  color: #ffffff;
+}
