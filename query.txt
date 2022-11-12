@@ -1,0 +1,36 @@
+# logical-test
+join array to string js
+console.log without breaking line
+looping in js
+includes js
+findIndex return the next index
+how to find concurrent word in a sentence
+get all index with findIndex
+parse string to int
+indexOf js
+sort function js
+how to make 2D array in js
+how to make triangle pattern in js
+map a string
+iterate through a string
+get all index of substring in string js
+star pattern right diagonal js
+printing patterns using recursion
+
+
+# slicing change-profile
+open camera in js
+lorem picsum
+access camera from browser
+change url location html
+mediadevices api
+how to upload file without input type file
+html input file
+filereader api
+crop image in js
+cropperjs 
+cropperjs cdn
+css background repeat
+background size
+how to link html file from another folder
+how to check if element has class in js
