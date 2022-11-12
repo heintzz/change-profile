@@ -4,11 +4,11 @@
 <img src="https://user-images.githubusercontent.com/91127753/201451133-b03d78fe-229a-4ae8-ba56-4da4663fcfc9.png" width="500"/> 
 2. Ekstrak file yang sudah diunduh 
 <img src="https://user-images.githubusercontent.com/91127753/201451293-966b4fe3-f3e8-44ad-9183-e705fe866761.png" width="500" />
-4. Buka VS Code pada folder tersebut dan jalankan npm install 
+3. Buka VS Code pada folder tersebut dan jalankan npm install 
 <img src="https://user-images.githubusercontent.com/91127753/201451448-4117d300-cb9d-448d-b2bc-167acb6bf2bc.png" width="500" />
-5. Klik kanan pada index.html dan pilih open with live server atau bisa juga dengan menjalankan file index.html di browser
+4. Klik kanan pada index.html dan pilih open with live server atau bisa juga dengan menjalankan file index.html di browser
 <img src="https://user-images.githubusercontent.com/91127753/201451538-85f6aaaf-1e04-49eb-b307-444380806733.png" width="500" />
-6. Hasil
+5. Hasil
 <img src="https://user-images.githubusercontent.com/91127753/201451599-1127dfc3-45ac-4bc5-ad67-ff43ae30e79a.png" width="500" />
 
 ### Logical Test
