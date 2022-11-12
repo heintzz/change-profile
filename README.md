@@ -17,5 +17,5 @@
 3. Pilih salah satu file dan jalankan node \<namafile> 
 <br> atau <br>
 jalankan node \<namafile1> && node \<namafile2> untuk menjalankan secara berurutan
-<img src="https://user-images.githubusercontent.com/91127753/201451928-0ced33a2-701f-40bc-8ad5-583d6eb19b09.png" />
+<img src="https://user-images.githubusercontent.com/91127753/201451928-0ced33a2-701f-40bc-8ad5-583d6eb19b09.png" width="500"/>
 *pastikan sudah terinstal node di komputer Anda
