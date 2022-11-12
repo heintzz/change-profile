@@ -25,6 +25,12 @@ window.addEventListener('load', () => {
       `background-image: url(${url}); background-position: center; background-size: contain; background-repeat: no-repeat; `
     )
   }
+  if (!url && src) {
+    boxPhoto.setAttribute(
+      'style',
+      `background-image: url(${src}); background-position: center; background-size: contain; background-repeat: no-repeat; `
+    )
+  }
 })
 
 cam.addEventListener('click', () => {
@@ -38,8 +44,10 @@ gallery.addEventListener('click', () => {
   upload.click()
 })
 save.addEventListener('click', () => {
-  const src = localStorage.getItem('url')
-  localStorage.setItem('src', src)
+  if (!save.classList.contains('inactive')) {
+    const src = localStorage.getItem('url')
+    localStorage.setItem('src', src)
+  }
   window.location.href = '../index.html'
 })
 upload.addEventListener('change', () => {
