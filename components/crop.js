@@ -1,7 +1,7 @@
-const [image, back, save] = [
+const [image, back, crop] = [
   document.querySelector('#result'),
   document.querySelector('#back'),
-  document.querySelector('#save_btn'),
+  document.querySelector('#crop'),
 ]
 
 let cropper
@@ -17,14 +17,14 @@ window.addEventListener('load', () => {
 })
 
 back.addEventListener('click', () => {
+  localStorage.removeItem('url')
   window.location.href = 'change.html'
 })
 
-save.addEventListener('click', () => {
-  console.log('hi')
+crop.addEventListener('click', () => {
   const croppedImage = cropper.getCroppedCanvas().toDataURL('image/png')
-  localStorage.setItem('src', croppedImage)
+  localStorage.setItem('url', croppedImage)
   setTimeout(() => {
-    window.location.href = '../index.html'
-  }, 1000)
+    window.location.href = 'change.html'
+  }, 500)
 })

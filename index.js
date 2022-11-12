@@ -6,7 +6,3 @@ window.addEventListener('load', () => {
     image.setAttribute('style', `background-image: url(${src})`)
   }
 })
-
-// image.addEventListener('click', () => {
-//   window.location.href = './components/change.html'
-// })
